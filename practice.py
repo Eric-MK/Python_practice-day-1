@@ -6,4 +6,10 @@ my_dict = {"name": "John"}
 print(my_dict.values() == my_dict.values()) """
 
 
-print(help("keywords"))
+""" print(help("keywords")) """
+
+
+#In Python, the comparison operators, such as > (greater than), work based on the Unicode code points of the characters in the strings. 
+#In Unicode, lowercase letters have higher code points than their corresponding uppercase letters.
+print("hello" > "Hello" > "HELLO")
+
