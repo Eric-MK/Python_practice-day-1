@@ -13,9 +13,11 @@ print(my_dict.values() == my_dict.values()) """
 #In Unicode, lowercase letters have higher code points than their corresponding uppercase letters.
 print("hello" > "Hello" > "HELLO") """
 
-names = ["Eric", "John", "David"]
+def word_even(s):
+    even_char = s[0::2]
+    print(even_char)
 
+word = input('Enter word : ')
+print("Original String:", word)
 
-?names
-
-
+word_even(word)
