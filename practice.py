@@ -13,11 +13,16 @@ print(my_dict.values() == my_dict.values()) """
 #In Unicode, lowercase letters have higher code points than their corresponding uppercase letters.
 print("hello" > "Hello" > "HELLO") """
 
-def word_even(s):
+""" def word_even(s):
     even_char = s[0::2]
     print(even_char)
 
 word = input('Enter word : ')
 print("Original String:", word)
 
-word_even(word)
+word_even(word) """
+
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        
+        for i in range(len(nums))
